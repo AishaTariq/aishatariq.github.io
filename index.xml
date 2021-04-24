@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 20 Apr 2021 22:10:44 +0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 20 Apr 2021 22:56:19 +0500</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi, Welcome! I am Aisha, a creative minded computer sceince student, aspiring to excel in my field to utilize my skils and knowledge to make a difference in the world. I am currently studying at the School of Electrical Engineering and Computer Science at the National University of Sciene and Technology, Pakistan. I am 19 years old, I enjoy puzzles and sports. I also dabble in circuit design, with a great passion for math.</description>
+    </item>
+    
+    <item>
+      <title>OS Developement Details</title>
+      <link>/post/os-developement-details/</link>
+      <pubDate>Tue, 20 Apr 2021 22:10:44 +0500</pubDate>
+      
+      <guid>/post/os-developement-details/</guid>
+      <description>MY OS It is a 64 bit operating system kernel capable of printing basic text on to the screen. All the source code for this os is available on my github page. This project was completed with the help of the tutorials by CodePulse on youtube at the following links: Tutorial 1 and Tutorial 2. I used Visual Studio Code to create and edit all the files, but any text editor can be used.</description>
+    </item>
+    
+  </channel>
+</rss>

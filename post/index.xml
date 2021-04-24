@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>/post/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 20 Apr 2021 22:10:44 +0500</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS Developement Details</title>
+      <link>/post/os-developement-details/</link>
+      <pubDate>Tue, 20 Apr 2021 22:10:44 +0500</pubDate>
+      
+      <guid>/post/os-developement-details/</guid>
+      <description>MY OS It is a 64 bit operating system kernel capable of printing basic text on to the screen. All the source code for this os is available on my github page. This project was completed with the help of the tutorials by CodePulse on youtube at the following links: Tutorial 1 and Tutorial 2. I used Visual Studio Code to create and edit all the files, but any text editor can be used.</description>
+    </item>
+    
+  </channel>
+</rss>

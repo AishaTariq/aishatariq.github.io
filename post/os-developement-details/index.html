@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>OS Developement Details &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="canonical" href="/post/os-developement-details/" />
+
+     <meta name="description" content="MY OS It is a 64 bit operating system kernel capable of printing basic text on to the screen. All the source code for this os is available on my github page. Th" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="/img/SEECS.PNG"/>
+    
+ 
+    <meta name="twitter:title" content="OS Developement Details"/>
+    <meta name="twitter:description" content="MY OS It is a 64 bit operating system kernel capable of printing basic text on to the screen. All the source code for this os is available on my github page. Th"/>
+    <meta name="twitter:url" content="/post/os-developement-details/" />
+    <meta name="twitter:site" content="@"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="OS Developement Details &middot; Aisha Tariq" />
+    <meta property="og:url" content="/post/os-developement-details/" />
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="MY OS It is a 64 bit operating system kernel capable of printing basic text on to the screen. All the source code for this os is available on my github page. Th" />
+
+    <meta property="article:published_time" content="2021-04-20T22:10:44&#43;05:00" />
+    
+
+    <meta property="og:image" content="/img/SEECS.PNG"/>
+
+
+    <meta name="generator" content="Hugo 0.82.0" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    
+
+     
+
+</head>
+
+
+<body class="post-template">
+  <div class="site-wrapper"> 
+
+<header class="site-header outer">
+  <div class="inner">
+    <nav class="site-nav">
+      <div class="site-nav-left">
+
+        <ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/about/">About</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/post/os-developement-details/">Project-OS</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="https://drive.google.com/file/d/12QGpJbcnh1BxuU11UR5g7LaLceIS85hW/view?usp=sharing">Resume</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    
+
+                    
+
+                    <a class="social-link" href="https://github.com/AishaTariq" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    
+
+                    
+        </div>  
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+      <article class="post-full post"> 
+    <header class="post-full-header">
+        <section class="post-full-meta">
+            <time class="post-full-meta-date" datetime="2021-04-20">20 April 2021</time>
+        </section>
+        <h1 class="post-full-title">OS Developement Details</h1>
+    </header>
+    
+    <figure class="post-full-image" style="background-image: url(/img/SEECS.PNG)">
+    </figure>
+
+    <section class="post-full-content">
+        <div class="kg-card-markdown">
+        <h1 id="my-os">MY OS</h1>
+<p>It is a 64 bit operating system kernel capable of printing basic text on to the screen. All the source code for this os is available on my <a href="https://github.com/AishaTariq/CAO-OS">github page</a>. This project was completed with the help of the tutorials by CodePulse on youtube at the following links: <a href="https://www.youtube.com/watch?v=FkrpUaGThTQ">Tutorial 1</a> and <a href="https://www.youtube.com/watch?v=wz9CZBeXR6U">Tutorial 2</a>. I used Visual Studio Code to create and edit all the files, but any text editor can be used.</p>
+<p><strong>Languages:</strong></p>
+<ul>
+<li>Assembly Language</li>
+<li>C</li>
+</ul>
+<p><strong>Software Used:</strong></p>
+<ul>
+<li>Docker</li>
+<li>Qemu</li>
+<li>Visual Studio Code (Text Editor)</li>
+</ul>
+<h1 id="developement">Developement</h1>
+<h3 id="step-1-docker">Step 1: Docker</h3>
+<p>We start by building a docker image for all the extra softwares and files that we will need to build our os. To do this, we create a folder called buildenv, and in it create docker file named DockerFile with the following code:</p>
+<pre><code>FROM randomdude/gcc-cross-x86_64-elf
+
+RUN apt-get update 
+RUN apt-get upgrade -y
+RUN apt-get install -y nasm
+RUN apt-get install -y xorriso
+RUN apt-get install -y grub-pc-bin
+RUN apt-get install -y grub-common
+
+VOLUME /root/env
+WORKDIR /root/env
+</code></pre><p>Our image is based on the pre-made image from randomdude/gcc-cross-x86_64-elf which contains all the compilation tools that we need.</p>
+<p>To build this image, we will run the following line of code in our terminal:</p>
+<p><code>docker build buildenv -t myos-buildenv</code></p>
+<p>Once we have built our image, we will open a container for it using one of the following commands based on what system you are using:</p>
+<ul>
+<li>Linux or MacOS: <code>docker run --rm -it -v &quot;$pwd&quot;:/root/env myos-buildenv</code></li>
+<li>Windows (CMD): <code>docker run --rm -it -v &quot;%cd%&quot;:/root/env myos-buildenv</code></li>
+<li>Windows (PowerShell): <code>docker run --rm -it -v &quot;${pwd}:/root/env&quot; myos-buildenv</code></li>
+</ul>
+<p>In my case, I ran the second line of code in my command line terminal to open an instance of the docker image we created earlier.</p>
+<h3 id="step-2-coding-our-operating-system">Step 2: Coding our Operating System</h3>
+<p>Once we&rsquo;ve done step 1, we are inside a virtual linux machine with access to all the tools we need for this os. Now we begin writing the code for our actual operating system. We start off by writing the x86 assembly code which is the entry point for our operating system, and integrate it with multiboot2, which is supported by most bootloaders.</p>
+<p>We create a <strong>header.asm</strong> file with the following code:</p>
+<pre><code>section .multiboot_header
+header_start:
+	; magic number
+	dd 0xe85250d6 ; multiboot2
+	; architecture
+	dd 0 ; protected mode i386
+	; header length
+	dd header_end - header_start
+	; checksum
+	dd 0x100000000 - (0xe85250d6 + 0 + (header_end - header_start))
+
+	; end tag
+	dw 0
+	dw 0
+	dd 8
+header_end:
+</code></pre><p>Then we create a <strong>main.asm file</strong>, to demonstrate printing OK on the screen:</p>
+<pre><code>global start
+
+section .text
+bits 32 ; we are in 32 bit mode
+start:
+    ; to print 'OK'
+    mov dword [0bx8000], 0x2f4b2f4f
+
+    hlt
+</code></pre><h3 id="step-3-setting-up-linker-and-grub-configurations">Step 3: Setting up Linker and grub configurations</h3>
+<p>Once we have coded our 32 bit operating system, we create the linker file and set up grub configurations. The linker file describes how to link our operating system together. What grub will do is create an iso file out of our operating system kernel binary. An iso file is a common format for holding an operating system. The file codes are shown bellow:</p>
+<p><strong>linker.ld file:</strong></p>
+<pre><code>ENTRY(start)
+
+SECTIONS
+{
+	. = 1M;
+
+	.boot :
+	{
+		KEEP(*(.multiboot_header))
+	}
+
+	.text :
+	{
+		*(.text)
+	}
+}
+</code></pre><p><strong>grub.cfg file:</strong></p>
+<pre><code>set timeout=0
+set default=0
+
+menuentry &quot;my os&quot; {
+	multiboot2 /boot/kernel.bin
+	boot
+}
+</code></pre><h3 id="step-4-building-our-operating-system">Step 4: Building our Operating System</h3>
+<p>Once we&rsquo;ve done step 2 and 3, we can finally move on to writing the code for building our operating system. We will do this inside of a &lsquo;Make&rsquo; file. Make is a handy tool for organizing all your build commands and making sure only modified files get built again to make the building process really fast.</p>
+<pre><code>x86_64_asm_source_files := $(shell find src/impl/x86_64 -name *.asm)
+x86_64_asm_object_files := $(patsubst src/impl/x86_64/%.asm, build/x86_64/%.o, $(x86_64_asm_source_files))
+
+$(x86_64_asm_object_files): build/x86_64/%.o : src/impl/x86_64/%.asm
+	mkdir -p $(dir $@) &amp;&amp; \
+	nasm -f elf64 $(patsubst build/x86_64/%.o, src/impl/x86_64/%.asm, $@) -o $@
+
+.PHONY: build-x86_64
+build-x86_64: $(x86_64_asm_object_files)
+	mkdir -p dist/x86_64 &amp;&amp; \
+	x86_64-elf-ld -n -o dist/x86_64/kernel.bin -T targets/x86_64/linker.ld $(x86_64_asm_object_files) &amp;&amp; \
+	cp dist/x86_64/kernel.bin targets/x86_64/iso/boot/kernel.bin &amp;&amp; \
+	grub-mkrescue /usr/lib/grub/i386-pc -o dist/x86_64/kernel.iso targets/x86_64/iso
+</code></pre><p>Once we&rsquo;ve written our make file, we can finally build our os by simply writing the following command in our terminal:</p>
+<p><code>make build-x86_64</code></p>
+<p>Now we can exit out of our docker emulator by running the <code>exit</code> command in our terminal.</p>
+<h3 id="step-5-qemu">Step 5: QEMU</h3>
+<p>After step 4, we will have successfully built our operating system and created the iso file. Now we will emulate our operating system our qemu. To do so, we will run the following command in our terminal:</p>
+<p><code>qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso</code></p>
+<h3 id="the-final-output-printing-ok">THE FINAL OUTPUT: Printing &lsquo;OK&rsquo;</h3>
+<p>Once we have completed all the steps above, we will have successfully built our 32 bit operating system and emulated it using qemu. We will now be able to see the &lsquo;OK&rsquo; (that was written in our main.asm file) on the console screen that appears!!</p>
+<p><img src="/post/OK.PNG" alt="PRINTING OK ON THE SCREEN"></p>
+<h1 id="converting-to-64-bit-operating-system">Converting to 64 bit Operating System</h1>
+<h3 id="step-1-setting-up-the-stack">Step 1: Setting up the Stack</h3>
+<p>Stack is crucial to allow us to link to C code. It is a region of the computer&rsquo;s memory that stores function call data whcih includes any local function variables and also the memory address to which each function should return control to upon completeion. As functions are recurcisely called, the stack grows, adn as functions are returned, data is popped from the stack. Each segment for a given function call is referred to as a stack frame. It is very simple to setup a stack and once we&rsquo;ve done that, we will write that c code that handles all the stack manipuaation for us. To setup our stack, we modify our main.asm file to create a stack top and stack bottom label and inside these we reserve 16kbytes of memory. This memory will be reserved when the bootloader loads the kernel.</p>
+<pre><code>section .bss
+stack_bottom:
+	resb 4096 * 4
+stack_top:
+</code></pre><p>We also move the address of the stacktop into the stack pointer (esp) register in the .text section.</p>
+<p><code>mov esp, stack_top</code></p>
+<h3 id="step-2-converting-our-operating-system-to-64-bit-mode">Step 2: Converting our operating system to 64 bit mode</h3>
+<p>Before we link to C code, we switch our kernel to 64 bit mode. To do this, we switch our cpu to long mode. We continue to write several subroutines and instructions to successfully do the conversion to 64 bit mode. We also implement paging with 4 page tables, each of size 4 kilobytes. The entirery of the code can be found in the main.asm file on the <a href="https://github.com/AishaTariq/CAO-OS">repository</a> on my github page.</p>
+<p>Finally, we create our main64.asm in which we set the bits to 64 bits and load null into all data segment registers.</p>
+<pre><code>global long_mode_start
+extern kernel_main
+
+section .text
+bits 64
+long_mode_start:
+    ; load null into all data segment registers
+    mov ax, 0
+    mov ss, ax
+    mov ds, ax
+    mov es, ax
+    mov fs, ax
+    mov gs, ax
+
+	call kernel_main
+    hlt
+</code></pre><p>Our operating system is now ready to be used, and can be built and emulated by running the same commands as we did for the 32 bit version.</p>
+<h3 id="step-3-writing-c-code-to-print-on-to-the-screen">Step 3: Writing C code to print on to the screen</h3>
+<p>Once we&rsquo;re done with steps 1 and 2, we can begin writing our C code. To do so, we create a main.c file in which we create a function called kernel_main() that we call through our main64.asm file. Whatever C functions we now want to call, we will call them within this kernel_main() function. Currently this os is capable of performing the following custom C print functions (defined in the print.h and print.c files):</p>
+<h4 id="setting-the-colour-of-the-text-and-background-for-printing">Setting the colour of the text and background for printing:</h4>
+<pre><code>void print_set_color(uint8_t foreground, uint8_t background) {
+    color = foreground + (background &lt;&lt; 4);
+}
+</code></pre><p>Available colors are as follows:</p>
+<pre><code>enum {
+    PRINT_COLOR_BLACK = 0,
+	PRINT_COLOR_BLUE = 1,
+	PRINT_COLOR_GREEN = 2,
+	PRINT_COLOR_CYAN = 3,
+	PRINT_COLOR_RED = 4,
+	PRINT_COLOR_MAGENTA = 5,
+	PRINT_COLOR_BROWN = 6,
+	PRINT_COLOR_LIGHT_GRAY = 7,
+	PRINT_COLOR_DARK_GRAY = 8,
+	PRINT_COLOR_LIGHT_BLUE = 9,
+	PRINT_COLOR_LIGHT_GREEN = 10,
+	PRINT_COLOR_LIGHT_CYAN = 11,
+	PRINT_COLOR_LIGHT_RED = 12,
+	PRINT_COLOR_PINK = 13,
+	PRINT_COLOR_YELLOW = 14,
+	PRINT_COLOR_WHITE = 15,
+};
+</code></pre><h4 id="printing-a-character">Printing a character:</h4>
+<pre><code>void print_char(char character) {
+    if (character == '\n') {
+        print_newline();
+        return;
+    }
+
+    if (col &gt; NUM_COLS) {
+        print_newline();
+    }
+
+    buffer[col + NUM_COLS * row] = (struct Char) {
+        character: (uint8_t) character,
+        color: color,
+    };
+
+    col++;
+}
+</code></pre><p>Number of <strong>columns</strong> has been set to <strong>80</strong> and number of <strong>rows</strong> has been set to <strong>25</strong>.</p>
+<h4 id="printing-a-new-line">Printing a new line:</h4>
+<pre><code>void print_newline() {
+    col = 0;
+
+    if (row &lt; NUM_ROWS - 1) {
+        row++;
+        return;
+    }
+
+    for (size_t row = 1; row &lt; NUM_ROWS; row++) {
+        for (size_t col = 0; col &lt; NUM_COLS; col++) {
+            struct Char character = buffer[col + NUM_COLS * row];
+            buffer[col + NUM_COLS * (row - 1)] = character;
+        }
+    }
+
+    clear_row(NUM_COLS - 1);
+}
+</code></pre><h4 id="printing-a-string-of-characters">Printing a string of characters:</h4>
+<pre><code>void print_str(char* str) {
+    for (size_t i = 0; 1; i++) {
+        char character = (uint8_t) str[i];
+
+        if (character == '\0') {
+            return;
+        }
+
+        print_char(character);
+    }
+}
+</code></pre><h4 id="clearing-a-row-of-characters">Clearing a row of characters:</h4>
+<pre><code>void clear_row(size_t row) {
+    struct Char empty = (struct Char) {
+        character: ' ',
+        color: color,
+    };
+
+    for (size_t col = 0; col &lt; NUM_COLS; col++) {
+        buffer[col + NUM_COLS * row] = empty;
+    }
+}
+</code></pre><h4 id="clearing-all-rows">Clearing all rows:</h4>
+<pre><code>void print_clear() {
+    for (size_t i = 0; i &lt; NUM_ROWS; i++) {
+        clear_row(i);
+    }
+}
+</code></pre><h3 id="the-final-output">THE FINAL OUTPUT</h3>
+<h4 id="printing-welcome-text">Printing Welcome Text</h4>
+<p>To print some basic welcome text on to the screen, we use the above functions in our main.c file as follows:</p>
+<pre><code>#include &quot;print.h&quot;
+
+void kernel_main() {
+    print_clear();
+    print_set_color(PRINT_COLOR_YELLOW, PRINT_COLOR_BLACK);
+    print_str(&quot;Welcome to our 64-bit kernel!&quot;);
+}
+</code></pre><p><strong>Output:</strong>
+<img src="/post/welcome.PNG" alt="PRINTING WELCOME USING C"></p>
+<h4 id="printing-seecs">Printing SEECS</h4>
+<p>Lastly, the long awaited, to print SEECS onto our screen using different character combinations, we write the following function calls in our main.c file:</p>
+<pre><code>#include &quot;print.h&quot;
+
+void kernel_main() {
+    print_clear();
+    print_set_color(PRINT_COLOR_YELLOW, PRINT_COLOR_BLACK);
+    print_str(&quot;Welcome to our 64-bit kernel!&quot;);
+    print_newline();
+    print_str(&quot;-----------------------------------------------&quot;);
+    print_newline();
+    print_str(&quot;-----------------------------------------------&quot;);
+    print_newline();
+    print_str(&quot;-----------------------------------------------&quot;);
+    print_newline();
+    print_str(&quot;-----------------------------------------------&quot;);
+    print_newline();
+    print_str(&quot;-------*****--*****--*****--*****--*****-------&quot;);
+    print_newline();
+    print_str(&quot;-------*------*------*------*------*-----------&quot;);
+    print_newline();
+    print_str(&quot;-------*------*------*------*------*-----------&quot;);
+    print_newline();
+    print_str(&quot;-------*****--*****--*****--*------*****-------&quot;);
+    print_newline();
+    print_str(&quot;-----------*--*------*------*----------*-------&quot;);
+    print_newline();
+    print_str(&quot;-----------*--*------*------*----------*-------&quot;);
+    print_newline();
+    print_str(&quot;-------*****--*****--*****--*****--*****-------&quot;);
+    print_newline();
+    print_str(&quot;-----------------------------------------------&quot;);
+    print_newline();
+    print_str(&quot;-----------------------------------------------&quot;);
+    print_newline();
+    print_str(&quot;-----------------------------------------------&quot;);
+    print_newline();
+    print_str(&quot;-----------------------------------------------&quot;);
+    print_newline();
+}
+</code></pre><p><strong>Output:</strong>
+<img src="/post/SEECS.PNG" alt="PRINTING SEECS USING C"></p>
+<h1 id="source-code">Source Code</h1>
+<p>You can find all the source code at <a href="https://github.com/AishaTariq/CAO-OS">https://github.com/AishaTariq/CAO-OS</a>. And in case you&rsquo;re interested, all the files that we&rsquo;ve created are organized into folders as follows:
+<img src="/post/files.PNG" alt="File organization">
+Thankyou for reading my post! I hope you enjoyed it and find it helpful in creating your own OS. Goodbye!</p>
+    
+        </div>
+    </section>
+
+    <footer class="post-full-footer">
+      <section class="author-card">
+        <img class="author-profile-image" src="/img/ghost-icon.png" alt="Author" />
+        <section class="author-card-content">
+            <h4 class="author-card-name"><a href="/">Aisha Tariq</a></h4>
+                <p></p>
+        </section>
+      </section>
+    </footer>
+</article>
+    
+    
+    
+
+  </div>
+</main>
+
+
+<aside class="read-next outer">
+  <div class="inner">
+    <div class="read-next-feed">      
+      
+
+      
+      
+    </div>
+  </div>
+</aside>
+
+<div class="floating-header">
+  <div class="floating-header-logo">
+    <a href="/">
+      
+      <span></span>
+    </a>
+  </div>
+  <span class="floating-header-divider">&mdash;</span>
+  <div class="floating-header-title">OS Developement Details</div>
+  <div class="floating-header-share">
+    <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/></svg>
+    </div>
+    
+    <a class="floating-header-share-tw" href="https://twitter.com/share?text=OS%20Developement%20Details&amp;url=%2fpost%2fos-developement-details%2f"
+          onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+      </a>
+      <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fos-developement-details%2f"
+          onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+      </a>
+  </div>
+
+  <progress class="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</div>
+
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="/">SEECS, NUST</a>  <br>
+      
+    </section>
+    <nav class="site-footer-nav">
+        
+        
+        <a href="https://github.com/AishaTariq" target="_blank" rel="noopener">Github</a>
+        
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+    <script>
+
+
+
+
+
+$(document).ready(function () {
+    
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+</body></html>
